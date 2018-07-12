@@ -110,7 +110,7 @@ background_label.place(x = 0,y = 0,relwidth = 1, relheight = 1)
 
 root.iconbitmap('download_HTw_icon.ico')
 
-root.geometry('500x700')
+root.geometry('2000x1000')
 
 
 Welcome=Label(root,text="Welcome to Weather App",font=("Arial Black",50),bg="dodger blue3")
