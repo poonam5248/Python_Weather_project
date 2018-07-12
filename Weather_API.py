@@ -105,7 +105,7 @@ root.title("Weather")
 
 
 background_image = PhotoImage(file="C:\\Users\\HP\\PycharmProjects\\Python_Assignments\\BlueSky.gif")
-background_label = Label(root, image=background_image,)
+background_label = Label(root, image=background_image)
 background_label.place(x = 0,y = 0,relwidth = 1, relheight = 1)
 
 root.iconbitmap('download_HTw_icon.ico')
