@@ -64,7 +64,7 @@ def show():
     label_Cloudiness.config(text="{} %".format(cloudiness))
     label_Longitude.config(text="{} ".format(lon))
     label_Latitude.config(text="{} ".format(lat))
-def Location():
+def Location(): #this function for getting the location
     x=entry_2.get()
     y=entry_3.get()
     api_address=("http://api.openweathermap.org/data/2.5/weather?units=metric&appid=62e494ce9c2b59c2b686b2afa9b8e244&lon={}&lat={}").format(x,y)
